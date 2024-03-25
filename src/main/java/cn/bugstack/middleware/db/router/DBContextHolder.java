@@ -36,7 +36,13 @@ public class DBContextHolder {
 
 
 
+    public static void clearDBKey(){
+        dbKey.remove();
+    }
 
+    public static void clearTBKey(){
+        tbKey.remove();
+    }
 
 
 
