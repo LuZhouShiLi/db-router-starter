@@ -13,7 +13,7 @@ public class DBRouterStrategyHashCode implements IDBRouterStrategy {
 
     private Logger logger = LoggerFactory.getLogger(DBRouterStrategyHashCode.class);
 
-    private DBRouterConfig dbRouterConfig;
+    private DBRouterConfig dbRouterConfig;// 路由配置
 
     public DBRouterStrategyHashCode(DBRouterConfig dbRouterConfig) {
         this.dbRouterConfig = dbRouterConfig;
